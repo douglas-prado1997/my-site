@@ -10,6 +10,7 @@
   h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
+    word-break: break-word; 
   }
 
   p {
@@ -19,5 +20,25 @@
 
   button {
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .construction-container h1 {
+    font-size: 2rem;
+  }
+
+  .construction-container p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .construction-container h1 {
+    font-size: 1.6rem;
+  }
+
+  .construction-container p {
+    font-size: 0.9rem;
   }
 }
